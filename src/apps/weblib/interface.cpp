@@ -269,6 +269,7 @@ void Interface::update(double, double width, double height, bool force)
 	{
 		try {
 			Vizzu::Main::JScriptCanvas canvas;
+// 			BaseCanvas canvas;
 			canvas.frameBegin();
 			chart->updateSize(canvas, size);
 			chart->draw(canvas);

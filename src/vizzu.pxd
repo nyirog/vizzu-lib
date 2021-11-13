@@ -1,5 +1,3 @@
-# distutils: language = c++
-
 cdef extern from "apps/weblib/interface.cpp":
     pass
 
